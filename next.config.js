@@ -15,7 +15,6 @@ const nextConfig = {
     // Allow production builds to complete even if there are type errors.
     ignoreBuildErrors: true,
   },
-  output: 'export',
 };
 
 module.exports = withBundleAnalyzer(nextConfig);
